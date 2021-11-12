@@ -83,7 +83,6 @@ Short text topic modeling : [link 2](https://towardsdatascience.com/short-text-t
 - Galann : Website, Visualisation, results Interpretation
 - Valérian : Clustering/topic analysis, results Interpretation
 - Younes : Sentiment analysis, Enriching the data, results Interpretation
-___
 
 <!---
 ## Questions for TAs :--->
