@@ -36,7 +36,7 @@ What is the time distribution of the femonationalist quotations? Is there a rela
 What is the sentiment analysis of the context of the quotation containing women's rights mention?
 Can we link the sentiment to the use of women's rights ideology?
 
-## Proposed additional datasets (if any): 
+## Proposed additional datasets : 
  <!---[amina] ---> 
  - Articles content and Keywords: These two text files contains the article retrieved from usnews.com and the list of most frequent bigrams that we will use as keywords.
  
