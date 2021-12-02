@@ -1,6 +1,14 @@
 import pandas as pd
 import numpy as np
 
+def first_item(x):
+    if x :
+        if (~(pd.isnull(x))):
+            x = x[0]
+    else :
+        x = 'None'
+    return x
+    
 def preprocess(df):
     '''
     Remove the rows containing empty qid entries ( so no authors) and when
