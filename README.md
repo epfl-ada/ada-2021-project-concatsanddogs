@@ -120,7 +120,7 @@ Younes :
 - 	RQ1 (data topic clustering, results interpretation, website redaction)
 - 	RQ2 (data, results interpretation, website redaction)
 - 	RQ3 (data, results interpretation)
-- 	QID pipeline
+- 	QID & BERTopic pipeline
 
 Galann :
 - 	Website set up
