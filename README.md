@@ -31,7 +31,7 @@ Can we identify different contexts for women's rights quotations? Can we relate 
 
 - RQ2: Who?  
  Is there a relationship between the association of women's rights and elements of nationalist rhetoric and the speaker political orientation? 
- Is there a relationship between the femonationalist use of women's right rhetoric and speaker gender?
+  Is there a relationship between the femonationalist use of women's right rhetoric and speaker gender?
 
 - RQ3: When?   
 What is the time distribution of the femonationalist quotations? Is there a relation between the femonationalist quotations and major political events (i.e. bombing in US, mass shooting, vote on feminist topics..)
@@ -42,7 +42,7 @@ What is the time distribution of the femonationalist quotations? Is there a rela
 
   --->
   Since the topic modelling and sentiment analysis didn't give the results we were hoping, in particular we didn't find a 
-  sufficient amount of quotes regarding femonationalism (  ~ 800 quotes ) are updated research questions are : 
+  sufficient amount of quotes regarding femonationalism (  ~ 800 quotes ) our updated research questions are : 
   
   RQ1 : What? <!-- do people talk about? -->
 		What kind of topics appear in selected quotes?
@@ -73,7 +73,7 @@ What is the time distribution of the femonationalist quotations? Is there a rela
  - Clustering :  The BERTopic package is used to cluster the quotes into meaningful labeled topics. A subset of our chosen quotes is fed to it. It embeds the quotes using sentence-bert, reduces the dimensions of the embedding, cluseters them using HDBSCAN, and gives labels to the clusters ( which would be our topics, consisting of a few keywords) using a modified version of TF-IDF and MMR(Maximal Marginal Relevance)
 
  <!---[younes] --->  
- - Sentiment analysis : Polarity scores from VaderSentiment library ( in the NLTK library) could be used to give a metric on the positivity or negativity of a quote. The VaderSentiment tool has been created to work best on social media content, which is appropriate as we are dealing with short texts. We also compare a sample of the results to other tools such as Flair and TextBlob
+ - Sentiment analysis : Polarity scores from VaderSentiment library ( in the NLTK library) could be used to give a metric on the positivity or negativity of a quote. The VaderSentiment tool has been created to work best on social media content, which is appropriate as we are dealing with short texts. We also compare a sample of the results to other tools such as Flair and TextBlob.
 
  <!---[younes] --->   
  - QID to attributes & QID to readable labels:  From a dataframe containing the chosen quotes, the QID row ( only the first QID if many are available) is used to perform a left join with the dataframe from the "speaker_attributes.parquet". Since some labels are still in QID format another join is performed between the remaining QIDs and "wikidata_labels_descriptions_quotebank.csv.bz2". Code has been prepared to perform the same join but using chunks with the file containing all the wikidata labels ( "wikidata_labels_descriptions.csv.bz2") in case some QID weren't available in the Quotebank version. 
