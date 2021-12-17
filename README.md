@@ -136,7 +136,6 @@ Galann :
 Valérian : 
 - 	Website set up
 - 	RQ1 (data topic clustering, results interpretation, website redaction)
-- 	
 
 # Notebook organization:
 
