@@ -1,4 +1,4 @@
-# Project Milestone2 - Group Concatsanddogs
+# Project Milestone3 - Group Concatsanddogs
 
 # The use of women's rights and gender equality rhetoric in the US
  <!---[amina] --->
