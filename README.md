@@ -1,4 +1,4 @@
-# Project Milestone3 - Group Concatsanddogs
+# Project Milestone 3 - Group Concatsanddogs
 
 # The use of women's rights and gender equality rhetoric in the US
  <!---[amina] --->
@@ -6,13 +6,9 @@
 <!---[amina] 
  _A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?_ --->
 
-The concept of femonationalism, developed by the scholar Sara R. Farris, describes how women’s right and feminism are co-opted to reinforce nationalist discourses. The femonationalist ideological formation uses arguments to bring forwards anti-immigration, anti-Muslim and xenophobic ideas and policies. In her book [1], Sara R. Farris uses discourse analysis of right-wing parties, feminist intellectuals and femocrats* to demonstrate her argument. Her analysis focuses on Italy, the Netherlands and France where she highlights the main topics of the ideology. First, the opposition between the non-western man who is an oppressor versus the non-western woman who is a redeemable victim to save and secondly the belief that patriarchy only exists in non-western cultures.
-In our case, we are interested in using quotations from The Quotebank database to study the use of women's rights and gender equality rhetoric in US. Especially, we are focusing on investigating if similar conclusions can be drawn.
+The Quotebank dataset was created on the premises that while quotations are interesting materials by themselves, with an attributed speaker more meaning can be infered (see research paper). In this data story we build upon these premices to ask a few questions about women’s rights and gender equality rhetoric in news articles.
 
-*A female politician or senior civil servant; a female bureaucrat in an agency dealing with women's issues.  
-
-[1] Farris, S. (2017). *In the Name of Women’s Rights*. Duke University Press. Retrieved from
-[link]( https://www.perlego.com/book/1465722/in-the-name-of-womens-rights-pdf) (Original work published 2017)
+Our questions will make use of the data that contextualize the quotations in Quotebank, namely the date, attributed speaker and the quotations themselves. We will explore who relies on arguments of women’s rights and gender equality, using additional datasets to complete the social profile of the attributed speaker. We are also interested in discovering in which social and political context this rhetoric is used. To this end, we will use additional datasets and natural language processing to higlight some possible links between political events and the evolution of feminist topics in news articles. We will also dive into specifc topic with subset of quotes to try to investigate different feminist ideologies.
 
 ## Research Questions:
  <!---[amina]
@@ -43,19 +39,35 @@ What is the time distribution of the femonationalist quotations? Is there a rela
   --->
   Since the topic modelling and sentiment analysis didn't give the results we were hoping, in particular we didn't find a 
   sufficient amount of quotes regarding femonationalism (  ~ 800 quotes ) our updated research questions are : 
+  RQ0 : **What?** _What do people talk about?_
+  		
+		How can we subdivised topic in a supervised manner?
+  	
+  RQ1 : **What?** _What do people talk about?_
   
-  RQ1 : What? <!-- do people talk about? -->
-		What kind of topics appear in selected quotes?
+ <!-- do people talk about? -->
+		
+		What kind of topics appear in selected quotes with an unsupervised method? 
 		Is there a topic/cluster representing femonationalist quotes?
 		
-  RQ2 : When? <!-- do people talk about women's rights? -->
+  RQ2 : **When?** _When do people talk about women's rights?_ 
+  
+  <!-- do people talk about women's rights? -->
 		How do people feel about women’s rights and gender equality overall?
-		How has Sentiment Evolved over time ?
+		How has sentiment evolved over time ?
 		Are peaks in sentiment related to political or social events ?
 		
-  RQ3 : Who? <!-- talks about women's right?-->
+  RQ3 : **Who?** _Who talks about women's right?_ 
+  
+ 
 		Is speaker sentiment related to political party, gender or other?
 		Is Women’s Rights a source of disagreement between the two sexes ?
+
+  RQ4: **How?** _A dive into different feminist ideologies_
+  
+  
+   		Can we highlight some ideologies within topic subset?
+		
 ## Proposed additional datasets : 
  <!---[amina] ---> 
  - Articles content and Keywords: These two text files contains the article retrieved from usnews.com and the list of most frequent bigrams that we will use as keywords.
@@ -97,11 +109,28 @@ Short text topic modeling : [link 2](https://towardsdatascience.com/short-text-t
 - 12 : Continue website - write text accompanying visualizations
 - 13 : Run all the code and visualizations one last time - Finalize website 
 
-## Organization within the team (subject to change):
-- Amina : Webscraping, Research papers, Selecting the quotes, results Interpretation
-- Galann : Website, Visualisation, results Interpretation
-- Valérian : Clustering/topic analysis, results Interpretation
-- Younes : Sentiment analysis, Enriching the data, results Interpretation
+## Organization within the team:
+Amina : 
+- 	Webscraping,  
+- 	RQ0 (data categorization, results interpretation, website redaction)
+- 	RQ2 (data, results interpretation, website redaction)
+- 	RQ4 (data)
+
+Younes : 
+- 	RQ1 (data topic clustering, results interpretation, website redaction)
+- 	RQ2 (data, results interpretation, website redaction)
+- 	RQ3 (data, results interpretation)
+
+Galann :
+- 	Website set up
+- 	RQ3 (results interpretation, website redaction)
+-  	RQ4 (results interpretation, website redaction)
+
+Valérian : 
+- 	Website set up
+- 	RQ1 (data topic clustering, results interpretation, website redaction)
+- 	
+
 
 <!---
 ## Questions for TAs :--->
