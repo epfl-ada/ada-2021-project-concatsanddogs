@@ -42,32 +42,33 @@ What is the time distribution of the femonationalist quotations? Is there a rela
   RQ0 : **What?** _What do people talk about?_
   		
 		How can we subdivised topic in a supervised manner?
-  	
+  
   RQ1 : **What?** _What do people talk about?_
   
+
  <!-- do people talk about? -->
 		
 		What kind of topics appear in selected quotes with an unsupervised method? 
 		Is there a topic/cluster representing femonationalist quotes?
-		
+
   RQ2 : **When?** _When do people talk about women's rights?_ 
-  
+
   <!-- do people talk about women's rights? -->
 		How do people feel about women’s rights and gender equality overall?
 		How has sentiment evolved over time ?
 		Are peaks in sentiment related to political or social events ?
 		
   RQ3 : **Who?** _Who talks about women's right?_ 
-  
- 
+
+
 		Is speaker sentiment related to political party, gender or other?
 		Is Women’s Rights a source of disagreement between the two sexes ?
 
   RQ4: **How?** _A dive into different feminist ideologies_
-  
-  
+
+
    		Can we highlight some ideologies within topic subset?
-		
+
 ## Proposed additional datasets : 
  <!---[amina] ---> 
  - Articles content and Keywords: These two text files contains the article retrieved from usnews.com and the list of most frequent bigrams that we will use as keywords.
@@ -132,8 +133,20 @@ Valérian :
 - 	RQ1 (data topic clustering, results interpretation, website redaction)
 - 	
 
+Notebook organization:
+
+-
+
+-
+
+-
+
+
+
+
 
 <!---
+
 ## Questions for TAs :--->
 <!---(optional): Add here any questions you have for us related to the proposed project.--->
  <!---[amina] 
