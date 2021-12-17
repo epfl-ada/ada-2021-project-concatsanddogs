@@ -137,6 +137,7 @@ Valérian :
 - 	Website set up
 - 	RQ1 (data topic clustering, results interpretation, website redaction)
 
+(RQ4 = additional , the last question) 
 # Notebook organization:
 
 - Notebooks with the plots used in the website : 
